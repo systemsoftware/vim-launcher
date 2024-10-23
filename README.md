@@ -2,7 +2,7 @@
 
 An Electron application that launches Vim in your system's terminal when opening files through your operating system's file associations.
 
-![Example](https://media.discordapp.net/attachments/743201191936262234/1298444084851114044/vimlex.png?ex=671995c9&is=67184449&hm=cd17bc879c0327342921701cd8cb78e7e281ea7ea7b466c842a2465fc1b34464&=&format=webp&quality=lossless&width=500&height=300)
+![Example](https://raw.githubusercontent.com/systemsoftware/vim-launcher/refs/heads/main/vimlex.png)
 
 ## Overview
 
