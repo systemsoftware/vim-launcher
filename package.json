@@ -1,0 +1,28 @@
+{
+    "name": "vim-launcher",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+        "build": {
+        "productName": "Vim Launcher",
+          "fileAssociations": [
+            {
+              "ext": [
+                "txt", "md", "cpp", "py", "js", "html", "css", "json", "xml", 
+                "sh", "c", "h", "java", "rb", "go", "pl", "php", "ts", "rs", "lua", 
+                "swift", "kt", "gradle", "groovy", "scala", "clj", "cljs", "rkt",
+                "cs", "fs", "fsx", "fsi", "vb", "vbs", "bas", "v", "pas", "d", "adb",
+                "bash", "zsh", "fish", "awk", "sed", "ps1", "psm1", "psd1", "bat", "cmd",
+                ".vimlauncher"
+              ],
+              "name": "Vim Supported Files",
+              "role": "Editor"
+            }
+          ]
+        }, 
+    "devDependencies": {
+        "electron": "^33.0.2"
+    }
+}
